@@ -1,0 +1,19 @@
+# Data — download it yourself, see data/README.md
+data/*
+!data/README.md
+
+# Notebook outputs and derived files
+outputs/
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
